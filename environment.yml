@@ -1,0 +1,24 @@
+name: smart_screen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pillow
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn[standard]
+      - pypylon
+      - kornia
+      - torch>=2.0
+      - opencv-python-headless
+      - ffmpeg-python
+      - python-multipart
+      - google-api-python-client
+      - google-auth
+      - google-auth-oauthlib
+      - python-dotenv
+      - requests
+      - aiofiles
